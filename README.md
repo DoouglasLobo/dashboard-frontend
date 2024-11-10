@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📊 Dashboard Front-End
 
-## Getting Started
+[![NextJS Badge](https://img.shields.io/badge/NextJS-000?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![TypeScript Badge](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+[![TailwindCSS Badge](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
+[![shadcn/ui Badge](https://img.shields.io/badge/shadcn%2Fui-6528e0?style=for-the-badge)](https://shadcn.dev/)
 
-First, run the development server:
+## 📖 Sobre o Projeto
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Este projeto é um dashboard estático desenvolvido com **Next.js**, **TypeScript**, **TailwindCSS** e **shadcn/ui**. O design é totalmente responsivo, garantindo uma ótima experiência em **desktop**, **tablet** e **mobile**. Este dashboard é ideal para visualizar dados e métricas em uma interface amigável e moderna.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🌟 Demonstração da Responsividade
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+|                      Desktop                      |                     Tablet                      |                     Mobile                      |
+| :-----------------------------------------------: | :---------------------------------------------: | :---------------------------------------------: |
+| ![Desktop View](./public/assets/desktop-view.png) | ![Tablet View](./public/assets/tablet-view.png) | ![Mobile View](./public/assets/mobile-view.png) |
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Tecnologias Utilizadas
 
-## Learn More
+- [Next.js](https://nextjs.org/) - Framework React para desenvolvimento de aplicações web rápidas e otimizadas.
+- [TypeScript](https://www.typescriptlang.org/) - Superset do JavaScript que adiciona tipagem estática.
+- [TailwindCSS](https://tailwindcss.com/) - Framework de CSS utilitário para criação rápida de layouts responsivos.
+- [shadcn/ui](https://shadcn.dev/) - Biblioteca de componentes UI modernos e acessíveis.
 
-To learn more about Next.js, take a look at the following resources:
+## 📦 Como Iniciar o Projeto
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Pré-requisitos
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Certifique-se de ter o **Node.js** e **npm** (ou **yarn**) instalados em sua máquina:
 
-## Deploy on Vercel
+- [Node.js](https://nodejs.org/)
+- [Git](https://git-scm.com/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### ⚙️ Instalação e Execução
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Clone o repositório:**
+
+   ```bash
+   git clone https://github.com/DoouglasLobo/dashboard-frontend
+   cd dashboard-frontend
+   ```
+
+2. **Instale as dependências:**
+
+   ```bash
+   npm install
+   # ou
+   yarn install
+   ```
+
+3. **Execute o projeto:**
+
+   ```bash
+   npm run dev
+   # ou
+   yarn dev
+   ```
+
+4. **Acesse a aplicação:**
+   Abra o navegador e vá para http://localhost:3000.
+
+## 📫 Como Contribuir
+
+Se você deseja contribuir para este projeto, siga os passos abaixo:
+
+1. **Clone o repositório:**
+
+   ```bash
+   git clone https://github.com/DoouglasLobo/dashboard-frontend
+   ```
+
+2. **Crie uma nova branch:**
+
+   ```bash
+   git checkout -b feature/nova-funcionalidade
+   ```
+
+3. **Faça suas alterações e envie suas mudanças.**
+4. **Abra uma Pull Request** explicando o que foi feito, e aguarde a revisão!
+
+## Documentações Úteis
+
+📝 [Como criar uma Pull Request](https://www.atlassian.com/br/git/tutorials/making-a-pull-request)
+
+💾 [Padrão de Commits](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
+
+### 🚀 Projeto Online
+
+🚀 [Visite o projeto online](https://banking-landing-page-drab.vercel.app/)
